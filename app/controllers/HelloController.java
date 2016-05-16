@@ -11,7 +11,7 @@ import views.html.*;
 public class HelloController extends Controller {
 	private final String hello = "Hello World!";
     
-    public Result index() {
+    public Result hello() {
         return ok(hello);
     }
 
