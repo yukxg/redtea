@@ -22,6 +22,12 @@ public class User extends Model {
     public String address;
     //@Formats.DateTime(pattern="dd/MM/yyyy")
     //public Date dueDate = new Date();
-
-    public static Finder<Long, User> find = new Finder<Long,User>(User.class);
+    public User(String name, String first, String last, String add){
+    	this.username = name;
+    	this.firstname = first;
+    	this.lastname = last;
+    	this.address = add;
+    }
+    public static Finder<String, User> find = new Finder<String,User>(User.class);
+    
 }
