@@ -1,7 +1,7 @@
 # redtea
 内容
-1. 在Github上面建立一个账户，然后建立一个自己公开的代码库，.gitignore选择
-PlayFramework
+```
+1. 在Github上面建立一个账户，然后建立一个自己公开的代码库，.gitignore选择 PlayFramework
 2. 在电脑上面安装git，把代码库clone到本地
 3. 开发任务
 a. 在本地代码库建立Play的项目，然后进行第一次提交代码到git。
@@ -39,3 +39,4 @@ e. 修改User接口，解释接收到的JSON字符串，并且转化为一个对
 ○ https://www.playframework.com/documentation/2.4.x/JavaEbean
 ● POSTMAN （可能需要翻墙）
 https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
+```
